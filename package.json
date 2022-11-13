@@ -1,0 +1,22 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel ",
+    "build": "parcel build --dist-dir ./dist"
+  },
+  "author": "Alperen Düzen",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.13.10"
+  }
+}
